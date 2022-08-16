@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>MTA Recovery</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Your styles should be called here -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+
+    <div class="container">
+      <header>
+        <h1>Charting/Examining the Recovery of the MTA in NYC</h1>
+        <p> By Angel Adegbesan</p>
+        <time datetime="2022-07-30">July 30, 2022</time>
+      </header>
+    </div>
+    <div class="container image">
+      <img src="images/MTA1.jpg">
+      <p class="caption">A moving "A" train at the West Fourth Street subway station. (Photo Credit:<a href="https://unsplash.com/@themcny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nic Y-C</a> on <a
+          href="https://unsplash.com/s/photos/mta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        )</p>
+    </div>
+
+    <div class="container">
+
+      <p> The purpose of this project is to determine how public transit ridership has changed in New York City in a year.</p>
+
+      <p> For this project we examined the turnstile and metro card swipes data from the Metropolitan Transit Authority, the state agency that runs the city’s subways and buses. We use both data sets to compare subway ridership in the first four
+        months of 2021 to the first four months of 2022. </p>
+
+      <p> Our hypothesis is that the number of users entering a subway station will have increased year over year. We also hypothesize that the number of users swiping a metro card will have decreased, given the widespread availability of OMNY
+        systems that allows users to tap a contactless card to pay the fare. We believe it would have impacted the use of traditional metro cards. </p>
+
+      <p> First, we pulled the turnstile data from Jan TK, 2021 to April TK, 2021 as well as from Jan TK, 2022 to April TK, 2022. The data was divided into weekly numbers that contained the date, time, and number of entries and exits for turnstiles
+        at over 400 subway stations. Then, we sorted and analyzed the data to ultimately derive three categories: the station names, dates and the number of entries. We further compressed the weekly dates into months, so we have the total number of
+        turnstile entry at each subway station for the months of January, February, March and April in both 2021 and 2022.  </p>
+
+      <p>Then, we pulled the metro card data from the MTA that shows the type and number of metro card used at each subway station per week. Again, we pulled data from Jan TK, 2021 to April TK, 2021 as well as from Jan TK, 2022 to April TK, 2022.
+        Similar to the turnstile data, we sorted and analyzed the data to give us three categories: the station names, dates, total number of metro cards used. Then, we compressed the weekly dates into months, so we have the total number of swipes at
+        each subway station for the months of January, February, March and April in both 2021 and 2022. </p>
+      <p> After sorting, we were able to derive the kind of Swipe dataset and Turnstile dataset that we liked from each scrape. Then we made simple calculations on the numbers to find out the percent difference from the previous year’s for both
+        datasets.  </p>
+
+      <p>Ultimately, we found out two things which are the complete opposite of our hypothesis: in most stations, people entering the subway system typically decreased and the number of metrocard swiped into a station typically increased in 2022.
+        Overall, we found that the number of swipes in the first four months of 2022 increased by an average of 47 percent from the same period in 2021. On the other hand, the number of people entering a subway station in the first four months of
+        2022 only increase by an average of 15 percent from the same period in
+        2021. </p>
+
+      <p> Why? We theorize that the reduced number of people entering the stations could be because of the omicron variant that led many workers to return to remote work.
+      </p> 
+
+      <h2> A Quick Segue </h2>
+
+    </div>
+    <!--annotate starts here-->
+
+    <div class="container image">
+      <div class="annotate">
+        <img src="images/MTA5.jpg" />
+        <p class="caption"> The entrance to the Lexington ave-53rd street subway station. Photo Credit: Angel Adegbesan </p>
+        <div id="hypothesis" class="dot purple">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h2>Noteworthy</h2>
+            <h3>Upon surveying of the data, we see that a typical station has an increased number of swipes in the four month period of 2022 compared to 2021, while a typical station has a decreased number of people actually entering the station
+              using
+              the turnstile. Yet, after calculation, we see that the average of both datasets shows increases. Then we noticed the outliers: </h3>
+          </div>
+        </div>
+
+        <div id="outlier1" class="dot blue">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h2>Outlier one</h2>
+            <h3> Unlike other stations where there was a decrease in turnstile entry, the 72nd street-2nd Avenue station had a phenomenal 1,784% increase in the number of people entering the station via turnstiles for the first four months of 2022.
+              It also had a 24% increase in the number of people swiping into the station. </h3>
+          </div>
+        </div>
+        <div id="outlier2" class="dot pink">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h2>Outlier two</h2>
+            <h3> Unlike other stations where there was a decrease in turnstile entry, the Hewes Street-Broadway station had a 695% increase in the number of people entering the station via turnstiles for the first four months of 2022. On the other
+              hand, it only had a 7.5% increase in the number of people swiping into the station. </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <p> We also wanted to see if there were possible outliers that corresponded with our original hypothesis. So we compared the swipe numbers and turnstile entry numbers of each station to see if there were
+        cases where swipe decreased and entry
+        increased. </p>
+
+      <p> We encountered a roadblock with this where we found out that the subway stations in the Swipe dataset were named differently from the subway stations in the Turnstile dataset. After filtering and sorting in Excel, we were able to find about
+        100 out of more than 400 subway stations that were named similarly. We used the VLookup function in Excel to match the turnstile numbers and swipe numbers for these stations. </p>
+
+      <p>From there, we discovered two outliers that corresponded with our initial hypothesis. The Hewes Street-Broadway and the 72nd Street-2nd Avenue stations had an increased number of people entering the station in 2022 compared to the previous
+        year’s, and had a decreased or slightly increased number of people swiping a metro card.</p>
+
+    </div>
+
+    <div class="container photo">
+      <iframe title="The 72nd Street Outlier" aria-label="Grouped Column Chart" id="datawrapper-chart-JSRet" src="https://datawrapper.dwcdn.net/JSRet/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;"
+        height="532"></iframe>
+      <script type="text/javascript">
+        ! function() {
+          "use strict";
+          window.addEventListener("message", (function(e) {
+            if (void 0 !== e.data["datawrapper-height"]) {
+              var t = document.querySelectorAll("iframe");
+              for (var a in e.data["datawrapper-height"])
+                for (var r = 0; r < t.length; r++) {
+                  if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px"
+                }
+            }
+          }))
+        }();
+      </script>
+
+
+      <iframe title="The Hewes Street Outlier" aria-label="Grouped Bars" id="datawrapper-chart-xEXqZ" src="https://datawrapper.dwcdn.net/xEXqZ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;"
+        height="401"></iframe>
+      <script type="text/javascript">
+        ! function() {
+          "use strict";
+          window.addEventListener("message", (function(e) {
+            if (void 0 !== e.data["datawrapper-height"]) {
+              var t = document.querySelectorAll("iframe");
+              for (var a in e.data["datawrapper-height"])
+                for (var r = 0; r < t.length; r++) {
+                  if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px"
+                }
+            }
+          }))
+        }();
+      </script>
+
+      <div class="container">
+        <p>So overall, we found out that subway ridership in New York is nowhere on track to reaching pre pandemic levels as current levels are still below 2021’s. Senior officials have said the MTA will probably need until 2035 to match pre-covid
+          levels ///The MTA has stated that they are in crisis wktk because of ridership and need the funds to survive. To supplement depleting revenue from low ridership, the MTA is also considering raising fares, and a proposed congestion fee for
+          riders in Manhattan that will bring about $1 billion in revenue. The MTA anticipates allow the MTA to borrow against the revenue made from the congestion fees. ???? </p>
+      </div>
+
+
+      <p>Use the dropdown below to find out the subway stations and the percent difference of swipes and turnstile entry for each station. </p>
+    </div>
+
+    <div class="container photo">
+
+      <div class="autocomplete">
+        <img class="search-icon" src="images/search.svg" alt="Search">
+        <input placeholder="Search station name..." value>
+        <button tabindex="-1" aria-label="clear selection">x</button>
+      </div>
+
+
+      <!-- <select class="filter"> -->
+      <!-- <option value="default">Search station name...</option> -->
+      <!-- <option value="brooklyn">Brooklyn</option> -->
+      <!-- <option value="bronx">Bronx</option> -->
+      <!-- <option value="manhattan">Manhattan</option> -->
+      <!-- <option value="queens">Queens</option> -->
+      <!-- </select> -->
+
+      <!-- <section id="neighborhoods"> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/apple.jpg" /> -->
+      <!-- <h3>School 1</h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/banana.jpg" /> -->
+      <!-- <h3>School 2</h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/bread.jpg" /> -->
+      <!-- <h3>School 3</h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/juice.jpg" /> -->
+      <!-- <h3>School 4</h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/cereal.jpg" /> -->
+      <!-- <h3>School 5</h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/coffee.jpg" /> -->
+      <!-- <h3>School 6</h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/milk.jpg" /> -->
+      <!-- <h3> School 7</h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/sugar.jpg" /> -->
+      <!-- <h3>School 8</h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/cheese.jpg" /> -->
+      <!-- <h3> School 9 </h3> -->
+      <!-- </div> -->
+
+      <!-- <div class="default active"> -->
+      <!-- <img src="img/butter.jpg" /> -->
+      <!-- <h3> School 10 </h3> -->
+      <!-- </div> -->
+
+
+      <!-- section ends here -->
+      <!-- </section> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/apple.jpg" /> -->
+      <!-- <h2>School 1 </h2> -->
+      <!-- <h4> P.S. 124 BROOKLYN -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation code 04A (Food Protection Certificate not held by supervisor of food operations) </h4> -->
+
+      <!-- </div> -->
+      <!--  -->
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/banana.jpg" /> -->
+      <!-- <h2>School 2</h2> -->
+      <!-- <h4>PRE-K CENTER AT AVENUE W -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations) </h4> -->
+      <!-- <h4> Violation Code 04J (Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding. -->
+      <!-- )</h4> -->
+
+      <!-- </div> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/bread.jpg" /> -->
+      <!-- <h2>School 3</h2> -->
+      <!-- <h4> P.S. 368 AT BROOKLYN CHILDRENS CENTER , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations) </h4> -->
+
+      <!-- </div> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/juice.jpg" /> -->
+      <!-- <h2>School 4 </h2> -->
+      <!-- <h4> BUSHWICK LEADERS HIGH SCHOOL FOR ACADEMIC EXCELLENCE -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations) </h4> -->
+
+      <!-- <h4> Violation Code 04J (Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding. -->
+      <!-- )</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/cereal.jpg" /> -->
+      <!-- <h2>School 5 </h2> -->
+      <!-- <h4> HYDE LEADERSHIP CHARTER SCHOOL - BROOKLYN ANNEX -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+
+      <!-- <h4> Violation Code 04J (Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding. -->
+      <!-- )</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/coffee.jpg" /> -->
+      <!-- <h2>School 6 </h2> -->
+      <!-- <h4> I.S. 391 BROOKLYN -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04J (Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding. -->
+      <!-- )</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/milk.jpg" /> -->
+      <!-- <h2>School 7 </h2> -->
+      <!-- <h4> J.H.S. 51 BROOKLYN -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code O4K (Evidence of rats or live rats present in facility's food and/or non-food areas) </h4> -->
+      <!-- <h4> Violation Code 04L (Evidence of mice or live mice present in facility's food and/or non-food areas) </h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/sugar.jpg" /> -->
+      <!-- <h2>School 8 </h2> -->
+      <!-- <h4> P.S. 73 BROOKLYN -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04K ( Evidence of rats or live rats present in facility's food and/or non-food areas)</h4> -->
+
+      <!-- </div> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/cheese.jpg" /> -->
+      <!-- <h2>School 9 </h2> -->
+      <!-- <h4> EDWARD R. MURROW HIGH SCHOOL -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04L (Evidence of mice or live mice present in facility's food and/or non-food areas) </h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="brooklyn"> -->
+      <!-- <img src="img/butter.jpg" /> -->
+      <!-- <h2>School 10 </h2> -->
+      <!-- <h4> P.S. 217 BROOKLYN -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4>Violation Code 04L (Evidence of mice or live mice present in facility's food and/or non-food areas) </h4> -->
+      <!-- </div> -->
+
+
+
+      <!-- Here is laurelton--->
+
+
+      <!-- <div class="bronx"> -->
+      <!-- <img src="img/apple.jpg" /> -->
+      <!-- <h2>School 1 </h2> -->
+      <!-- <h4> ZETA CHARTER SCHOOL BRONX I, ZETA CHARTER SCHOOLS - NEW YORK CITY </h4> -->
+      <!-- <h4> Violation Code 03G (Raw food not properly washed prior to serving) </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="bronx"> -->
+      <!-- <img src="img/banana.jpg" /> -->
+      <!-- <h2>School 2 </h2> -->
+      <!-- <h4> SOUTH BRONX CHARTER -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+      <!-- <h4>Violation Code 04J (Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding. -->
+      <!-- ) </h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="bronx"> -->
+      <!-- <img src="img/bread.jpg" /> -->
+      <!-- <h2>School 3</h2> -->
+      <!-- <h4> P469X @ 855 -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+      <!--  -->
+      <!-- </div> -->
+
+      <!-- <div class="bronx"> -->
+      <!-- <img src="img/juice.jpg" /> -->
+      <!-- <h2>School 4 </h2> -->
+      <!-- <h4> ROSE HILL PRE K CENTER -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+
+      <!-- </div> -->
+
+      <!-- <div class="bronx"> -->
+      <!-- <img src="img/cereal.jpg" /> -->
+      <!-- <h2>School 5 </h2> -->
+      <!-- <h4> P.S. 168 HCC -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION </h4> -->
+
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+
+      <!-- </div> -->
+
+      <!-- <div class="bronx"> -->
+      <!-- <img src="img/coffee.jpg" /> -->
+      <!-- <h2>School 6 </h2> -->
+      <!-- <h4> LEGACY PREPARATORY CHARTER SCHOOL -->
+      <!-- , LEGACY COLLEGE PREPARATORY CHARTER SCHOOL </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+
+      <!-- </div>
+
+      <div class="bronx">
+        <img src="img/milk.jpg" />
+        <h2>School 7 </h2>
+        <h4> ROSE HILL PRE K CENTER,
+          NEW YORK CITY DEPARTMENT OF EDUCATION
+        </h4>
+        <h4> Violation Code 04J (Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding.
+          )</h4>
+      </div>
+
+      <div class="bronx">
+        <img src="img/sugar.jpg" />
+        <h2>School 8 </h2>
+        <h4> BRONX HIGH SCHOOL OF SCIENCE
+          , NEW YORK CITY DEPARTMENT OF EDUCATION
+        </h4>
+        <h4>Violation Code 04L (Evidence of mice or live mice present in facility's food and/or non-food areas.
+          ) </h4>
+
+        <h4> Violation Code 08A (Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist.
+          )</h4>
+
+      </div>
+
+
+      <!--Here is LIC -->
+
+      <!--
+      <div class="manhattan">
+        <img src="img/apple.jpg" />
+        <h2>School 1 </h2>
+        <h4> DEMOCRACY PREP HARLEM CHARTER HS
+          , NEW YORK CITY DEPARTMENT OF EDUCATION </h4>
+        <h4> Violation Code 04A ( Food Protection Certificate not held by supervisor of food operations) </h4>
+      </div>
+
+      <div class="manhattan">
+        <img src="img/banana.jpg" />
+        <h2>School 2 </h2>
+        <h4> SPECIAL MUSIC SCHOOL - M932
+          , NEW YORK CITY DEPARTMENT OF EDUCATION </h4>
+        <h4> Violation Code 04A ( Food Protection Certificate not held by supervisor of food operations) </h4>
+      </div>
+
+      <div class="manhattan">
+        <img src="img/bread.jpg" />
+        <h2>School 3</h2>
+        <h4> HERITAGE HIGH SCHOOL
+          , NEW YORK CITY DEPARTMENT OF EDUCATION
+        </h4>
+        <h4> Violation Code 04A ( Food Protection Certificate not held by supervisor of food operations) </h4>
+      </div>
+
+      <div class="manhattan">
+        <img src="img/juice.jpg" />
+        <h2>School 4 </h2>
+        <h4> PRE-K CENTER 2-26 WASHINGTON STREET
+          , NEW YORK CITY DEPARTMENT OF EDUCATION
+        </h4>
+        <h4> Violation Code 04A ( Food Protection Certificate not held by supervisor of food operations) </h4>
+      </div>
+
+      <div class="manhattan">
+        <img src="img/cereal.jpg" />
+        <h2>School 5 </h2>
+        <h4>HIGH SCHOOL FOR MATHEMATICS, SCIENCE AND ENGINEERING AT CITY COLLEGE
+          CONVENT AVENUE
+          , NEW YORK CITY DEPARTMENT OF EDUCATION
+        </h4>
+        <h4> Violation Code 04A ( Food Protection Certificate not held by supervisor of food operations) </h4>
+      </div>
+
+      <div class="manhattan">
+        <img src="img/coffee.jpg" />
+        <h2>School 6 </h2>
+        <h4>PRE-K CENTER AT 2 LAFAYETTE, 10 READE STREET
+          , NEW YORK CITY DEPARTMENT OF EDUCATION
+        </h4>
+        <h4> Violation Code 04A ( Food Protection Certificate not held by supervisor of food operations) </h4>
+      </div>
+
+      <div class="manhattan">
+        <img src="img/milk.jpg" />
+        <h2>School 7 </h2>
+        <h4>CAPITAL PREP HARLEM
+          ,CAPITAL PREP HARLEM (CHARTER)
+        </h4>
+        <h4> Violation Code 04A ( Food Protection Certificate not held by supervisor of food operations) </h4>
+      </div>
+
+      <div class="manhattan">
+        <img src="img/sugar.jpg" />
+        <h2>School 8 </h2>
+        <h4> BROOME STREET ACADEMY CHARTER HIGH SCHOOL
+          , BROOME STREET ACADEMY CHARTER HIGH SCHOOL
+        </h4>
+        <h4> Violation Code 04L ( Evidence of mice or live mice present in facility's food and/or non-food areas)</h4>
+        <h4> Violation Code 08A (Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist)</h4>
+      </div>
+
+      <div class="manhattan">
+        <img src="img/cheese.jpg" />
+        <h2>School 9 </h2>
+        <h4> HARLEM CHILDREN'S ZONE CHARTER SCHOOL
+          , HARLEM CHILDREN'S ZONE INC.
+        </h4>
+        <h4> Violation Code 04L ( Evidence of mice or live mice present in facility's food and/or non-food areas)</h4>
+        <h4> Violation Code 08A (Facility not vermin proof. Harborage or conditions conducive to attracting vermin to the premises and/or allowing vermin to exist)</h4>
+      </div>
+
+      <div class="manhattan">
+
+        <img src="img/butter.jpg" />
+        <h2>School 10</h2>
+        <h4> THE EQUITY PROJECT CHARTER SCHOOL
+          , THE EQUITY PROJECT CHARTER SCHOOL
+        </h4>
+        <h4> Violation Code 06A ( Personal cleanliness inadequate. Outer garment soiled with possible contaminant. Effective hair restraint not worn in an area where food is prepared) </h4>
+      </div>
+
+
+
+      <!--Here is Queens -->
+      <!--  -->
+
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/apple.jpg" /> -->
+      <!-- <h2>School 1 </h2> -->
+      <!-- <h4> GROWING UP GREEN CHARTER SCHOOL II -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+      <!-- </div> -->
+      <!--  -->
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/banana.jpg" /> -->
+      <!-- <h2>School 2 </h2> -->
+      <!-- <h4> P.S. 45 QUEENS -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+      <!-- </div> -->
+      <!--  -->
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/bread.jpg" /> -->
+      <!-- <h2>School 3 </h2> -->
+      <!-- <h4> P.S 128 ANNEX -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04A (Food Protection Certificate not held by supervisor of food operations)</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/juice.jpg" /> -->
+      <!-- <h2>School 4 </h2> -->
+      <!-- <h4> P.S. 219 QUEENS -->
+      <!-- ,NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04J ( Appropriately scaled metal stem-type thermometer or thermocouple not provided or used to evaluate temperatures of potentially hazardous foods during cooking, cooling, reheating and holding) </h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/cereal.jpg" /> -->
+      <!-- <h2>School 5 </h2> -->
+      <!-- <h4> P.S. 721 QUEENS OTC -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04L ( Evidence of mice or live mice present in facility's food and/or non-food areas)</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/coffee.jpg" /> -->
+      <!-- <h2>School 6 </h2> -->
+      <!-- <h4>MERRICK ACADEMY - QUEENS PUBLIC CHARTER SCHOOL -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04L ( Evidence of mice or live mice present in facility's food and/or non-food areas)</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/milk.jpg" /> -->
+      <!-- <h2>School 7 </h2> -->
+      <!-- <h4> PRE-K CENTER AT 143 STREET - QUEENS -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04L ( Evidence of mice or live mice present in facility's food and/or non-food areas)</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/sugar.jpg" /> -->
+      <!-- <h2>School 8 </h2> -->
+      <!-- <h4>J.H.S. 204 QUEENS -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04L ( Evidence of mice or live mice present in facility's food and/or non-food areas)</h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/cheese.jpg" /> -->
+      <!-- <h2>School 9 </h2> -->
+      <!-- <h4> R.F. WAGNER JR. INST. FOR ARTS & TECH -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 04M (Live roaches present in facility's food and/or non-food areas) </h4> -->
+      <!-- </div> -->
+
+      <!-- <div class="queens"> -->
+      <!-- <img src="img/butter.jpg" /> -->
+      <!-- <h2>School 10 </h2> -->
+      <!-- <h4> P.S. 98 QUEENS -->
+      <!-- , NEW YORK CITY DEPARTMENT OF EDUCATION -->
+      <!-- </h4> -->
+      <!-- <h4> Violation Code 06C ( Food not protected from potential source of contamination during storage, preparation, transportation, display or service)</h4> -->
+      <!-- </div> -->
+
+      <!-- <p> -->
+    </div>
+
+
+
+
+
+
+
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
+  </body>
+
+  <!-- </html> -->
