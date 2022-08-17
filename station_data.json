@@ -1,0 +1,847 @@
+[
+  {
+    "Station": "174th-175th Street-Grand Concourse",
+    "Swipe Change (%)": "261.7",
+    "Entries Change (%)": "4.2"
+  },
+  {
+    "Station": "GreenPoint Avenue",
+    "Swipe Change (%)": "203.4",
+    "Entries Change (%)": "0.1"
+  },
+  {
+    "Station": "182nd Street-183rd Street",
+    "Swipe Change (%)": "180.0",
+    "Entries Change (%)": "0.3"
+  },
+  {
+    "Station": "49th Street & 7th Avenue",
+    "Swipe Change (%)": "139.9",
+    "Entries Change (%)": "-8.2"
+  },
+  {
+    "Station": "World Trade Center-Cortlandt Street",
+    "Swipe Change (%)": "138.7",
+    "Entries Change (%)": "0.4"
+  },
+  {
+    "Station": "PA-Path Pavonia/Newport",
+    "Swipe Change (%)": "138.5",
+    "Entries Change (%)": "33.2"
+  },
+  {
+    "Station": "Chambers Street",
+    "Swipe Change (%)": "126.4",
+    "Entries Change (%)": "0.9"
+  },
+  {
+    "Station": "PA-Path Twenty Third Street",
+    "Swipe Change (%)": "122.5",
+    "Entries Change (%)": "77.4"
+  },
+  {
+    "Station": "PA-Path Grove Street",
+    "Swipe Change (%)": "120.1",
+    "Entries Change (%)": "5.5"
+  },
+  {
+    "Station": "PA-Path Christopher Street",
+    "Swipe Change (%)": "119.9",
+    "Entries Change (%)": "2.8"
+  },
+  {
+    "Station": "PA-Path 9th Street",
+    "Swipe Change (%)": "118.1",
+    "Entries Change (%)": "52.4"
+  },
+  {
+    "Station": "PA-Path Exchange Place",
+    "Swipe Change (%)": "113.2",
+    "Entries Change (%)": "2.7"
+  },
+  {
+    "Station": "Park Place",
+    "Swipe Change (%)": "104.8",
+    "Entries Change (%)": "1.2"
+  },
+  {
+    "Station": "Franklin Street-West Bway",
+    "Swipe Change (%)": "101.9",
+    "Entries Change (%)": "1.9"
+  },
+  {
+    "Station": "Botanic Garden-Franklin Avenue",
+    "Swipe Change (%)": "98.9",
+    "Entries Change (%)": "3.2"
+  },
+  {
+    "Station": "York Street-Jay Street",
+    "Swipe Change (%)": "95.4",
+    "Entries Change (%)": "5.4"
+  },
+  {
+    "Station": "Howard Beach-159th Avenue",
+    "Swipe Change (%)": "91.4",
+    "Entries Change (%)": "5.8"
+  },
+  {
+    "Station": "Nassau Avenue-Manhattan Avenue",
+    "Swipe Change (%)": "91.1",
+    "Entries Change (%)": "5.5"
+  },
+  {
+    "Station": "PA-Path Thirty Third Street",
+    "Swipe Change (%)": "88.3",
+    "Entries Change (%)": "-11.7"
+  },
+  {
+    "Station": "42nd Street-Times Square",
+    "Swipe Change (%)": "85.5",
+    "Entries Change (%)": "52.6"
+  },
+  {
+    "Station": "Union Street-4th Avenue",
+    "Swipe Change (%)": "85.4",
+    "Entries Change (%)": "3.1"
+  },
+  {
+    "Station": "City Hall",
+    "Swipe Change (%)": "83.2",
+    "Entries Change (%)": "-36.0"
+  },
+  {
+    "Station": "PA-Path 14th Street",
+    "Swipe Change (%)": "82.7",
+    "Entries Change (%)": "15.9"
+  },
+  {
+    "Station": "RI Tramway (Manhattan)",
+    "Swipe Change (%)": "82.4",
+    "Entries Change (%)": "54.5"
+  },
+  {
+    "Station": "8th Street & Broadway",
+    "Swipe Change (%)": "81.1",
+    "Entries Change (%)": "1.7"
+  },
+  {
+    "Station": "Neck Road-East 16th Street",
+    "Swipe Change (%)": "79.5",
+    "Entries Change (%)": "0.5"
+  },
+  {
+    "Station": "Cortlandt Street",
+    "Swipe Change (%)": "78.7",
+    "Entries Change (%)": "-0.5"
+  },
+  {
+    "Station": "57th Street & 7th Avenue",
+    "Swipe Change (%)": "76.8",
+    "Entries Change (%)": "0.7"
+  },
+  {
+    "Station": "81st Street-Museum",
+    "Swipe Change (%)": "75.3",
+    "Entries Change (%)": "-2.6"
+  },
+  {
+    "Station": "Court Square",
+    "Swipe Change (%)": "74.4",
+    "Entries Change (%)": "-0.2"
+  },
+  {
+    "Station": "Borough Hall-Court Street",
+    "Swipe Change (%)": "72.9",
+    "Entries Change (%)": "0.5"
+  },
+  {
+    "Station": "Avenue H-East 16th Street",
+    "Swipe Change (%)": "71.3",
+    "Entries Change (%)": "3.6"
+  },
+  {
+    "Station": "Roosevelt Island",
+    "Swipe Change (%)": "70.5",
+    "Entries Change (%)": "-11.4"
+  },
+  {
+    "Station": "Jay Street-Metrotech",
+    "Swipe Change (%)": "70.3",
+    "Entries Change (%)": "11.3"
+  },
+  {
+    "Station": "190th Street-Overlook Terrace",
+    "Swipe Change (%)": "67.3",
+    "Entries Change (%)": "0.0"
+  },
+  {
+    "Station": "PA-Path Journal Square",
+    "Swipe Change (%)": "67.0",
+    "Entries Change (%)": "40.6"
+  },
+  {
+    "Station": "FT Hamilton Pky- Greenwood",
+    "Swipe Change (%)": "66.4",
+    "Entries Change (%)": "-89.0"
+  },
+  {
+    "Station": "RI Tramway (Roosevelt)",
+    "Swipe Change (%)": "66.0",
+    "Entries Change (%)": "13.6"
+  },
+  {
+    "Station": "34th Street- Penn Station",
+    "Swipe Change (%)": "63.0",
+    "Entries Change (%)": "-1.9"
+  },
+  {
+    "Station": "Court Square-23rd Street",
+    "Swipe Change (%)": "62.9",
+    "Entries Change (%)": "14.6"
+  },
+  {
+    "Station": "Bay 50th Street-Stillwell",
+    "Swipe Change (%)": "61.7",
+    "Entries Change (%)": "3.1"
+  },
+  {
+    "Station": "2nd Avenue-Houston Street",
+    "Swipe Change (%)": "60.2",
+    "Entries Change (%)": "2.9"
+  },
+  {
+    "Station": "Seaside Beach-105th Street",
+    "Swipe Change (%)": "59.5",
+    "Entries Change (%)": "84.8"
+  },
+  {
+    "Station": "East Broadway-Madison Street",
+    "Swipe Change (%)": "59.3",
+    "Entries Change (%)": "-11.3"
+  },
+  {
+    "Station": "Broad Street & Wall Street",
+    "Swipe Change (%)": "57.7",
+    "Entries Change (%)": "3.6"
+  },
+  {
+    "Station": "Broadway Lafayette-Bleecker",
+    "Swipe Change (%)": "57.2",
+    "Entries Change (%)": "0.1"
+  },
+  {
+    "Station": "Prince Street & Broadway",
+    "Swipe Change (%)": "57.1",
+    "Entries Change (%)": "1.2"
+  },
+  {
+    "Station": "Playland-Beach 98th Street",
+    "Swipe Change (%)": "53.4",
+    "Entries Change (%)": "0.9"
+  },
+  {
+    "Station": "Dekalb Avenue",
+    "Swipe Change (%)": "47.0",
+    "Entries Change (%)": "1.1"
+  },
+  {
+    "Station": "Barclays Center",
+    "Swipe Change (%)": "46.7",
+    "Entries Change (%)": "-5.8"
+  },
+  {
+    "Station": "25th Avenue-86th Street",
+    "Swipe Change (%)": "45.3",
+    "Entries Change (%)": "6.6"
+  },
+  {
+    "Station": "34th Street-6th Avenue",
+    "Swipe Change (%)": "44.6",
+    "Entries Change (%)": "-29.6"
+  },
+  {
+    "Station": "45th Street-4th Avenue",
+    "Swipe Change (%)": "44.5",
+    "Entries Change (%)": "8.4"
+  },
+  {
+    "Station": "67th Avenue-Queens Blvd",
+    "Swipe Change (%)": "44.3",
+    "Entries Change (%)": "1.0"
+  },
+  {
+    "Station": "14th Streett-Union Square",
+    "Swipe Change (%)": "43.5",
+    "Entries Change (%)": "-11.1"
+  },
+  {
+    "Station": "21st Street-Queensbridge",
+    "Swipe Change (%)": "43.1",
+    "Entries Change (%)": "2.6"
+  },
+  {
+    "Station": "Neptune Avenue-Mcdonald Avenue",
+    "Swipe Change (%)": "42.1",
+    "Entries Change (%)": "2.4"
+  },
+  {
+    "Station": "63rd Street-Lexington Avenue",
+    "Swipe Change (%)": "41.3",
+    "Entries Change (%)": "0.7"
+  },
+  {
+    "Station": "East 143rd Street-Southern Blvd",
+    "Swipe Change (%)": "40.3",
+    "Entries Change (%)": "3.2"
+  },
+  {
+    "Station": "Essex Street-Delancey Street",
+    "Swipe Change (%)": "40.2",
+    "Entries Change (%)": "1.7"
+  },
+  {
+    "Station": "9th Avenue-39th Street",
+    "Swipe Change (%)": "39.8",
+    "Entries Change (%)": "2.4"
+  },
+  {
+    "Station": "86th Street-2nd Avenue",
+    "Swipe Change (%)": "38.1",
+    "Entries Change (%)": "5.0"
+  },
+  {
+    "Station": "Middletown Road-Westchester",
+    "Swipe Change (%)": "37.5",
+    "Entries Change (%)": "3.4"
+  },
+  {
+    "Station": "75th Avenue-Queens Blvd",
+    "Swipe Change (%)": "36.4",
+    "Entries Change (%)": "0.2"
+  },
+  {
+    "Station": "Beach 25th Street-Wavecrest",
+    "Swipe Change (%)": "36.1",
+    "Entries Change (%)": "10.4"
+  },
+  {
+    "Station": "Kingston Avenue-Throop Avenue",
+    "Swipe Change (%)": "35.4",
+    "Entries Change (%)": "-11.5"
+  },
+  {
+    "Station": "Beverley Road-East 15th Street",
+    "Swipe Change (%)": "35.0",
+    "Entries Change (%)": "3.6"
+  },
+  {
+    "Station": "Classon Avenue-Lafayette Avenue",
+    "Swipe Change (%)": "34.9",
+    "Entries Change (%)": "1.6"
+  },
+  {
+    "Station": "Broad Channel-Noel Road",
+    "Swipe Change (%)": "33.5",
+    "Entries Change (%)": "2.7"
+  },
+  {
+    "Station": "Freeman Street-Southern Blvd",
+    "Swipe Change (%)": "33.0",
+    "Entries Change (%)": "0.5"
+  },
+  {
+    "Station": "Bay Ridge Avenue-4th Avenue",
+    "Swipe Change (%)": "32.8",
+    "Entries Change (%)": "-1.7"
+  },
+  {
+    "Station": "Bowery Street-Delancey Street",
+    "Swipe Change (%)": "32.3",
+    "Entries Change (%)": "3.3"
+  },
+  {
+    "Station": "96th Street-2nd Avenue",
+    "Swipe Change (%)": "31.6",
+    "Entries Change (%)": "-31.5"
+  },
+  {
+    "Station": "Avenue X-Mcdonald Avenue",
+    "Swipe Change (%)": "31.2",
+    "Entries Change (%)": "4.6"
+  },
+  {
+    "Station": "Longwood Avenue-Southern Blvd",
+    "Swipe Change (%)": "30.9",
+    "Entries Change (%)": "4.9"
+  },
+  {
+    "Station": "Canal Street",
+    "Swipe Change (%)": "30.6",
+    "Entries Change (%)": "0.7"
+  },
+  {
+    "Station": "Buhre Avenue-Westchester Avenue",
+    "Swipe Change (%)": "29.8",
+    "Entries Change (%)": "5.7"
+  },
+  {
+    "Station": "46th Street-Broadway",
+    "Swipe Change (%)": "29.2",
+    "Entries Change (%)": "5.4"
+  },
+  {
+    "Station": "Avenue I-Mcdonald Avenue",
+    "Swipe Change (%)": "28.5",
+    "Entries Change (%)": "-3.4"
+  },
+  {
+    "Station": "65th Street-Broadway",
+    "Swipe Change (%)": "28.4",
+    "Entries Change (%)": "1.6"
+  },
+  {
+    "Station": "36th Street-4th Avenue",
+    "Swipe Change (%)": "28.4",
+    "Entries Change (%)": "1.2"
+  },
+  {
+    "Station": "86th Streett-4th Avenue",
+    "Swipe Change (%)": "28.3",
+    "Entries Change (%)": "-59.6"
+  },
+  {
+    "Station": "163rd Street-Amsterdam Avenue",
+    "Swipe Change (%)": "28.0",
+    "Entries Change (%)": "4.2"
+  },
+  {
+    "Station": "Bay Ridge-95th Street",
+    "Swipe Change (%)": "27.0",
+    "Entries Change (%)": "6.0"
+  },
+  {
+    "Station": "Bronx Park East",
+    "Swipe Change (%)": "26.6",
+    "Entries Change (%)": "-14.2"
+  },
+  {
+    "Station": "Livonia Avenue-Van Sinderen Avenue",
+    "Swipe Change (%)": "26.4",
+    "Entries Change (%)": "6.2"
+  },
+  {
+    "Station": "Intervale 163rd Street",
+    "Swipe Change (%)": "25.8",
+    "Entries Change (%)": "5.1"
+  },
+  {
+    "Station": "Rockaway Blvd-Liberty Avenue",
+    "Swipe Change (%)": "25.2",
+    "Entries Change (%)": "-8.6"
+  },
+  {
+    "Station": "Jefferson Street-Wyckoff Avenue",
+    "Swipe Change (%)": "24.6",
+    "Entries Change (%)": "8.0"
+  },
+  {
+    "Station": "Cortelyou Road-East 16th Street",
+    "Swipe Change (%)": "24.5",
+    "Entries Change (%)": "8.4"
+  },
+  {
+    "Station": "Forest Avenue-Putnam Avenue",
+    "Swipe Change (%)": "24.4",
+    "Entries Change (%)": "5.3"
+  },
+  {
+    "Station": "New Utrecht Avenue-62nd Street",
+    "Swipe Change (%)": "24.3",
+    "Entries Change (%)": "10.6"
+  },
+  {
+    "Station": "77th Street-4th Avenue",
+    "Swipe Change (%)": "24.1",
+    "Entries Change (%)": "-7.5"
+  },
+  {
+    "Station": "72nd Street-2nd Avenue",
+    "Swipe Change (%)": "24.0",
+    "Entries Change (%)": "1784.3"
+  },
+  {
+    "Station": "Ditmas Avenue-Mcdonald Avenue",
+    "Swipe Change (%)": "24.0",
+    "Entries Change (%)": "-39.5"
+  },
+  {
+    "Station": "Hoyt Street-Schermerhorn Street",
+    "Swipe Change (%)": "23.6",
+    "Entries Change (%)": "3.2"
+  },
+  {
+    "Station": "Central Ave-Myrtle Avenue",
+    "Swipe Change (%)": "23.6",
+    "Entries Change (%)": "5.5"
+  },
+  {
+    "Station": "Winthrop Street-Nostrand Avenue",
+    "Swipe Change (%)": "22.9",
+    "Entries Change (%)": "0.4"
+  },
+  {
+    "Station": "Newkirk Plaza",
+    "Swipe Change (%)": "22.4",
+    "Entries Change (%)": "388.7"
+  },
+  {
+    "Station": "Church Avenue",
+    "Swipe Change (%)": "22.4",
+    "Entries Change (%)": "0.9"
+  },
+  {
+    "Station": "Grant Avenue-Pitkin Avenue",
+    "Swipe Change (%)": "22.0",
+    "Entries Change (%)": "1.6"
+  },
+  {
+    "Station": "Kosciuszko Street-Broadway",
+    "Swipe Change (%)": "22.0",
+    "Entries Change (%)": "4.3"
+  },
+  {
+    "Station": "Shepherd Avenue-Pitkin Avenue",
+    "Swipe Change (%)": "21.8",
+    "Entries Change (%)": "4.4"
+  },
+  {
+    "Station": "Bedford Avenue-Nostrand Avenue",
+    "Swipe Change (%)": "21.8",
+    "Entries Change (%)": "0.3"
+  },
+  {
+    "Station": "Frank Avenue-Beach 44th Street",
+    "Swipe Change (%)": "21.7",
+    "Entries Change (%)": "-43.0"
+  },
+  {
+    "Station": "Gunhill Road-White Plains Road",
+    "Swipe Change (%)": "21.7",
+    "Entries Change (%)": "-0.2"
+  },
+  {
+    "Station": "Avenue J-East 16th Street",
+    "Swipe Change (%)": "21.6",
+    "Entries Change (%)": "3.6"
+  },
+  {
+    "Station": "161st Street-Yankee Stadium",
+    "Swipe Change (%)": "20.7",
+    "Entries Change (%)": "-30.5"
+  },
+  {
+    "Station": "Avenue N-Mcdonald Avenue",
+    "Swipe Change (%)": "20.6",
+    "Entries Change (%)": "0.0"
+  },
+  {
+    "Station": "Avenue P-Mcdonald Avenue",
+    "Swipe Change (%)": "20.2",
+    "Entries Change (%)": "2.0"
+  },
+  {
+    "Station": "Straiton Avenue-Beach 60th Street",
+    "Swipe Change (%)": "20.2",
+    "Entries Change (%)": "0.1"
+  },
+  {
+    "Station": "Montrose Avenue",
+    "Swipe Change (%)": "20.2",
+    "Entries Change (%)": "0.4"
+  },
+  {
+    "Station": "Morgan Avenue-Harrison Place",
+    "Swipe Change (%)": "20.0",
+    "Entries Change (%)": "25.5"
+  },
+  {
+    "Station": "Edgemere-Beach 36th Street",
+    "Swipe Change (%)": "19.9",
+    "Entries Change (%)": "4.7"
+  },
+  {
+    "Station": "East 180th Street-Morris Park",
+    "Swipe Change (%)": "19.9",
+    "Entries Change (%)": "5.6"
+  },
+  {
+    "Station": "Kings Highway-East 16th Street",
+    "Swipe Change (%)": "19.8",
+    "Entries Change (%)": "-69.0"
+  },
+  {
+    "Station": "Simpson Street-Westchester Avenue",
+    "Swipe Change (%)": "19.1",
+    "Entries Change (%)": "-1.9"
+  },
+  {
+    "Station": "Northern Blvd-Broadway",
+    "Swipe Change (%)": "18.9",
+    "Entries Change (%)": "3.7"
+  },
+  {
+    "Station": "225tth Street-White Plains Road",
+    "Swipe Change (%)": "18.8",
+    "Entries Change (%)": "0.0"
+  },
+  {
+    "Station": "Sheepshead Bay Road",
+    "Swipe Change (%)": "18.7",
+    "Entries Change (%)": "3.4"
+  },
+  {
+    "Station": "176th Street-Jerome Avenue",
+    "Swipe Change (%)": "18.3",
+    "Entries Change (%)": "5.6"
+  },
+  {
+    "Station": "Smith Street-9th Street",
+    "Swipe Change (%)": "17.9",
+    "Entries Change (%)": "6.2"
+  },
+  {
+    "Station": "East 149th Street-Southern Blvd",
+    "Swipe Change (%)": "17.9",
+    "Entries Change (%)": "4.7"
+  },
+  {
+    "Station": "Avenue U-East 16th Street",
+    "Swipe Change (%)": "17.6",
+    "Entries Change (%)": "-8.5"
+  },
+  {
+    "Station": "Fresh Pond Road-68th Avenue",
+    "Swipe Change (%)": "16.5",
+    "Entries Change (%)": "3.3"
+  },
+  {
+    "Station": "Knickerbocker Avenue-Myrtle Avenue",
+    "Swipe Change (%)": "16.4",
+    "Entries Change (%)": "4.5"
+  },
+  {
+    "Station": "25th Street-4th Avenue",
+    "Swipe Change (%)": "16.2",
+    "Entries Change (%)": "2.4"
+  },
+  {
+    "Station": "Lefferts Blvd-Liberty Avenue",
+    "Swipe Change (%)": "16.0",
+    "Entries Change (%)": "3.6"
+  },
+  {
+    "Station": "Parkside Avenue-Ocean Avenue",
+    "Swipe Change (%)": "15.8",
+    "Entries Change (%)": "2.4"
+  },
+  {
+    "Station": "Allerton Avenue-White Plains Road",
+    "Swipe Change (%)": "15.8",
+    "Entries Change (%)": "3.8"
+  },
+  {
+    "Station": "Wilson Avenue-Moffat Street",
+    "Swipe Change (%)": "15.5",
+    "Entries Change (%)": "3.3"
+  },
+  {
+    "Station": "Rockaway Park-Beach 116th Street",
+    "Swipe Change (%)": "15.3",
+    "Entries Change (%)": "-0.3"
+  },
+  {
+    "Station": "Van Siclen Avenue-Fulton Street",
+    "Swipe Change (%)": "15.1",
+    "Entries Change (%)": "-20.3"
+  },
+  {
+    "Station": "Pelham Bay park-Bruckner Bl",
+    "Swipe Change (%)": "14.5",
+    "Entries Change (%)": "0.3"
+  },
+  {
+    "Station": "Ocean Pkway-Brighton Beach Avenue",
+    "Swipe Change (%)": "14.5",
+    "Entries Change (%)": "-3.0"
+  },
+  {
+    "Station": "Stillwell Avenue-Coney Island",
+    "Swipe Change (%)": "13.9",
+    "Entries Change (%)": "-2.5"
+  },
+  {
+    "Station": "Burke Avenue-White Plains Road",
+    "Swipe Change (%)": "13.8",
+    "Entries Change (%)": "4.3"
+  },
+  {
+    "Station": "Euclid Avenue-Pitkin Avenue",
+    "Swipe Change (%)": "13.8",
+    "Entries Change (%)": "6.8"
+  },
+  {
+    "Station": "15th Street-Prospect Park West",
+    "Swipe Change (%)": "13.3",
+    "Entries Change (%)": "0.8"
+  },
+  {
+    "Station": "138th Street-Grand Concourse",
+    "Swipe Change (%)": "13.1",
+    "Entries Change (%)": "0.1"
+  },
+  {
+    "Station": "Brook Avenue-138th Street",
+    "Swipe Change (%)": "13.1",
+    "Entries Change (%)": "-31.8"
+  },
+  {
+    "Station": "138th Street-3rd Avenue",
+    "Swipe Change (%)": "12.6",
+    "Entries Change (%)": "-83.8"
+  },
+  {
+    "Station": "Ralph Avenue-Fulton Street",
+    "Swipe Change (%)": "12.1",
+    "Entries Change (%)": "-43.5"
+  },
+  {
+    "Station": "Mt Eden Avenue-Jerome Avenue",
+    "Swipe Change (%)": "11.8",
+    "Entries Change (%)": "6.3"
+  },
+  {
+    "Station": "Gaston Avenue-Beach 67th Street",
+    "Swipe Change (%)": "11.4",
+    "Entries Change (%)": "2.5"
+  },
+  {
+    "Station": "Atlantic Avenue-Van Sinderen Avenue",
+    "Swipe Change (%)": "11.3",
+    "Entries Change (%)": "6.1"
+  },
+  {
+    "Station": "233rd Street-White Plains Road",
+    "Swipe Change (%)": "10.3",
+    "Entries Change (%)": "0.7"
+  },
+  {
+    "Station": "Norwood Avenue-Fulton Street",
+    "Swipe Change (%)": "10.3",
+    "Entries Change (%)": "1.8"
+  },
+  {
+    "Station": "Seneca Avenue-Palmetto Street",
+    "Swipe Change (%)": "9.4",
+    "Entries Change (%)": "5.9"
+  },
+  {
+    "Station": "Cleveland Street-Fulton Street",
+    "Swipe Change (%)": "9.0",
+    "Entries Change (%)": "2.3"
+  },
+  {
+    "Station": "East 105 Street-Farragut Road",
+    "Swipe Change (%)": "8.8",
+    "Entries Change (%)": "-32.8"
+  },
+  {
+    "Station": "Cypress Avenue-138th Street",
+    "Swipe Change (%)": "8.7",
+    "Entries Change (%)": "0.4"
+  },
+  {
+    "Station": "Chauncey Street-Rockaway Avenue",
+    "Swipe Change (%)": "8.5",
+    "Entries Change (%)": "-72.4"
+  },
+  {
+    "Station": "181st Street-FT Washington Avenue",
+    "Swipe Change (%)": "8.0",
+    "Entries Change (%)": "1.9"
+  },
+  {
+    "Station": "Crescent Street-Fulton Street",
+    "Swipe Change (%)": "7.8",
+    "Entries Change (%)": "8.4"
+  },
+  {
+    "Station": "Hewes Street-Broadway",
+    "Swipe Change (%)": "7.5",
+    "Entries Change (%)": "695.4"
+  },
+  {
+    "Station": "Brighton Beach-Coney Island",
+    "Swipe Change (%)": "6.2",
+    "Entries Change (%)": "2.8"
+  },
+  {
+    "Station": "Alabama Avenue-Fulton Street",
+    "Swipe Change (%)": "2.6",
+    "Entries Change (%)": "4.0"
+  },
+  {
+    "Station": "High Street-Cadman Plaza West",
+    "Swipe Change (%)": "2.4",
+    "Entries Change (%)": "-4.1"
+  },
+  {
+    "Station": "Sutter Avenue-Van Sinderen Avenue",
+    "Swipe Change (%)": "1.6",
+    "Entries Change (%)": "-2.4"
+  },
+  {
+    "Station": "Graham Avenue-Metropolitan Avenue",
+    "Swipe Change (%)": "0.3",
+    "Entries Change (%)": "-10.6"
+  },
+  {
+    "Station": "4th Avenue-9th Street",
+    "Swipe Change (%)": "-0.9",
+    "Entries Change (%)": "0.9"
+  },
+  {
+    "Station": "207th Street-Broadway",
+    "Swipe Change (%)": "-1.5",
+    "Entries Change (%)": "0.2"
+  },
+  {
+    "Station": "Steinway Street-Broadway",
+    "Swipe Change (%)": "-12.8",
+    "Entries Change (%)": "2.5"
+  },
+  {
+    "Station": "Avenue M-East 16th Street",
+    "Swipe Change (%)": "-13.0",
+    "Entries Change (%)": "0.3"
+  },
+  {
+    "Station": "Aqueduct Race Track",
+    "Swipe Change (%)": "-17.0",
+    "Entries Change (%)": "-55.3"
+  },
+  {
+    "Station": "Holland-Beach 90th Street",
+    "Swipe Change (%)": "-19.3",
+    "Entries Change (%)": "2.5"
+  },
+  {
+    "Station": "1st Avenue-14th Street",
+    "Swipe Change (%)": "-48.9",
+    "Entries Change (%)": "148.6"
+  },
+  {
+    "Station": "53rd Street-4th Avenue",
+    "Swipe Change (%)": "-54.0",
+    "Entries Change (%)": "1.8"
+  }
+]
