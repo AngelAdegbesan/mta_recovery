@@ -1,0 +1,255 @@
+/*
+This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/* THIS LINE LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/* Start your base/mobile styles here */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+header {
+    margin-bottom: 16px;
+}
+
+header p {
+    margin: 0;
+}
+
+.caption,
+figcaption {
+    font-size: 0.9rem;
+    color: #8e8a8a;
+    padding: 5px 0;
+}
+
+#neighborhoods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.default {
+    text-align: center;
+    flex-basis: 48%;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.brooklyn {
+    text-align: center;
+    flex-basis: 48%;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.bronx {
+    text-align: center;
+    flex-basis: 48%;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.manhattan {
+    text-align: center;
+    flex-basis: 48%;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.queens {
+    text-align: center;
+    flex-basis: 48%;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.default.active {
+    display: block;
+}
+
+.brooklyn.active {
+    display: block;
+}
+
+.bronx.active {
+    display: block;
+}
+
+.manhattan.active {
+    display: block;
+}
+
+.queens.active {
+    display: block;
+}
+
+/*annotated image */
+.annotate {
+    position: relative;
+}
+
+.annotate .dot {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/** this is postion releative. It's hollow, stuff goes inside
+position absolute means i can put it anywhere i want*/
+.annotate .dot .inner {
+    position: absolute;
+    opacity: 0;
+    color: #FFF;
+    padding: 25px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    /** width is as wide as its parent*/
+}
+
+.annotate .dot .close {
+    position: absolute;
+    color: #FFF;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.annotate .dot.purple {
+    background-color: rgba(74, 2, 242, 0.65);
+}
+
+.annotate .dot.blue {
+    background-color: rgba(11, 18, 230, 0.65);
+}
+
+.annotate .dot.pink {
+    background-color: rgba(240, 12, 182, 0.65);
+}
+
+#outlier1:not(.active) {
+    bottom: 48%;
+    left: 24%;
+}
+
+#outlier2:not(.active) {
+    bottom: 60%;
+    right: 19%;
+}
+
+#hypothesis:not(.active) {
+    top: 04%;
+    left: 27%;
+}
+
+.annotate .dot.active {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+    border: 0;
+    z-index: 2;
+}
+
+.annotate .dot.active .inner,
+.annotate .dot.active .close {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.collage {
+    display: flex;
+    justify content: space-between;
+    flex-wrap: wrap;
+}
+
+.collage .img {
+    flex-basis: 50%;
+    padding: 2.5px;
+}
+
+.collage .img:nth-child(odd) {
+    padding-left: 0;
+}
+
+.collage .img:nth-child(even) {
+    padding-right: 0;
+}
+
+/** Container styles to keep content from becoming too wide or coming too close to
+* mobile edge */
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/** Images are allowed to be a little wider when broken out into their own container */
+.container.image {
+    max-width: 1200px;
+    padding: 0;
+}
+
+.container.image .caption,
+.container.image figcaption {
+    padding: 5px 10px;
+}
+
+/* Tablet/Desktop overrides */
+@media(min-width: 681px) {
+
+    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    .item {
+        flex-basis: 33%;
+    }
+
+    select {
+        width: 33%;
+    }
+}
+
+@media(min-width: 729px) {
+
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+    .container.image .caption,
+    .container.image figcaption {
+        padding: 5px 0;
+    }
+}
