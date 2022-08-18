@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>MTA Recovery</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Your styles should be called here -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+    <script src="https://cdn.zinggrid.com/zinggrid.min.js"></script>
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+
+    <div class="container">
+      <header>
+        <h1>Examining the Recovery of the MTA in NYC</h1>
+        <p> By Angel Adegbesan</p>
+        <time datetime="2022-08-18">August 18, 2022</time>
+      </header>
+    </div>
+    <div class="container image">
+      <img src="images/MTA1.jpg">
+      <p class="caption">A moving "A" train at the West Fourth Street subway station. (Photo Credit:<a href="https://unsplash.com/@themcny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nic Y-C</a> on <a
+          href="https://unsplash.com/s/photos/mta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        )</p>
+    </div>
+
+    <div class="container">
+
+      <p> The purpose of this project is to determine how public transit ridership has changed in New York City in a year.</p>
+
+      <p> For this project we examined the turnstile and metro card swipes data from the Metropolitan Transit Authority, the state agency that runs the city’s subways and buses. We use both data sets to compare subway ridership in the first four
+        months of 2021 to the first four months of 2022. </p>
+
+      <p> Our hypothesis is that the number of users entering a subway station will have increased year over year. We also hypothesize that the number of users swiping a metro card will have decreased, given the widespread availability of OMNY
+        systems that allows users to tap a contactless card to pay the fare. We believe it would have impacted the use of traditional metro cards. </p>
+
+      <p> First, we pulled the turnstile data from Jan 01, 2021 to April 30, 2021 as well as from Jan 01, 2022 to April 30, 2022. The data was divided into weekly numbers that contained the date, time, and number of entries and exits for turnstiles
+        at over 400 subway stations. Then, we sorted and analyzed the data to ultimately derive three categories: the station names, dates and the number of entries. We further compressed the weekly dates into months, so we have the total number of
+        turnstile entry at each subway station for the months of January, February, March and April in both 2021 and 2022.  </p>
+
+      <p>Then, we pulled the metro card data from the MTA that shows the type and number of metro card used at each subway station per week. Again, we pulled data from Jan 01, 2021 to April 30, 2021 as well as from Jan 01, 2022 to April 30, 2022.
+        Similar to the turnstile data, we sorted and analyzed the data to give us three categories: the station names, dates, and total number of metro cards used. Then, we compressed the weekly dates into months, so we have the total number of
+        swipes at
+        each subway station for the months of January, February, March and April in both 2021 and 2022. </p>
+      <p> After sorting, we were able to derive the kind of Swipe dataset and Turnstile dataset that we liked from each scrape. Then we made simple calculations on the numbers to find out the percent difference from the previous year’s for both
+        datasets.  </p>
+
+      <p>Ultimately, we found out two things which are the complete opposite of our hypothesis: in most stations, people entering the subway system typically decreased and the number of metrocard swiped into a station typically increased in 2022.
+        Overall, we found that the number of swipes in the first four months of 2022 increased by an average of 47 percent from the same period in 2021. On the other hand, the number of people entering a subway station in the first four months of
+        2022 only increased by an average of 15 percent from the same period in
+        2021. </p>
+
+      <p> Why? We theorize that the reduced number of people entering the stations could be because of the omicron variant that led many workers to return to remote work.
+      </p> 
+
+      <h2> A Quick Segue </h2>
+
+    </div>
+    <!--annotate starts here-->
+
+    <div class="container image">
+      <div class="annotate">
+        <img src="images/MTA5.jpg" />
+        <p class="caption"> The entrance to the Lexington ave-53rd street subway station. Photo Credit: Angel Adegbesan </p>
+        <div id="hypothesis" class="dot purple">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h2>Noteworthy</h2>
+            <h3>Upon surveying of the data, we see that a typical station has an increased number of swipes in the four month period of 2022 compared to 2021, while a typical station has a decreased number of people actually entering the station
+              using
+              the turnstile. Yet, after calculation, we see that the average of both datasets shows increases. Then we noticed the outliers. Here are the main two: </h3>
+          </div>
+        </div>
+
+        <div id="outlier1" class="dot blue">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h2>Outlier one</h2>
+            <h3> Unlike other stations where there was a decrease in turnstile entry, the 72nd street-2nd Avenue station had a phenomenal 1,784% increase in the number of people entering the station via turnstiles for the first four months of 2022.
+              It also had a 24% increase in the number of people swiping into the station. </h3>
+          </div>
+        </div>
+        <div id="outlier2" class="dot pink">
+          <a class="close fa fa-times" href="#"></a>
+          <div class="inner">
+            <h2>Outlier two</h2>
+            <h3> Unlike other stations where there was a decrease in turnstile entry, the Hewes Street-Broadway station had a 695% increase in the number of people entering the station via turnstiles for the first four months of 2022. On the other
+              hand, it only had a 7.5% increase in the number of people swiping into the station. </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <p> We also wanted to see if there were possible outliers that corresponded with our original hypothesis. So we compared the swipe numbers and turnstile entry numbers of each station to see if there were
+        cases where swipe decreased and entry
+        increased. </p>
+
+      <p> We encountered a roadblock with this where we found out that the subway stations in the Swipe dataset were named differently from the subway stations in the Turnstile dataset. After filtering and sorting in Excel, we were able to find about
+        168 out of more than 400 subway stations that were named similarly. We used the VLookup function in Excel to match the turnstile numbers and swipe numbers for these stations. </p>
+
+      <p>From there, we discovered about four outliers that corresponded with our initial hypothesis. The main two: Hewes Street-Broadway and the 72nd Street-2nd Avenue stations had an increased number of people entering the station in 2022 compared
+        to the previous
+        year’s, and had a decreased or slightly increased number of people swiping a metro card.</p>
+    </div>
+
+    <div class="container photo">
+      <iframe title="The 72nd Street Outlier" aria-label="Grouped Column Chart" id="datawrapper-chart-JSRet" src="https://datawrapper.dwcdn.net/JSRet/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;"
+        height="532"></iframe>
+      <script type="text/javascript">
+        ! function() {
+          "use strict";
+          window.addEventListener("message", (function(e) {
+            if (void 0 !== e.data["datawrapper-height"]) {
+              var t = document.querySelectorAll("iframe");
+              for (var a in e.data["datawrapper-height"])
+                for (var r = 0; r < t.length; r++) {
+                  if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px"
+                }
+            }
+          }))
+        }();
+      </script>
+
+
+      <iframe title="The Hewes Street Outlier" aria-label="Grouped Bars" id="datawrapper-chart-xEXqZ" src="https://datawrapper.dwcdn.net/xEXqZ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;"
+        height="401"></iframe>
+      <script type="text/javascript">
+        ! function() {
+          "use strict";
+          window.addEventListener("message", (function(e) {
+            if (void 0 !== e.data["datawrapper-height"]) {
+              var t = document.querySelectorAll("iframe");
+              for (var a in e.data["datawrapper-height"])
+                for (var r = 0; r < t.length; r++) {
+                  if (t[r].contentWindow === e.source) t[r].style.height = e.data["datawrapper-height"][a] + "px"
+                }
+            }
+          }))
+        }();
+      </script>
+
+      <div class="container">
+        <p> So, overall we found that subway ridership in New York is nowhere on track to reaching pre-pandemic levels. Senior officials have <a
+            href="https://www.bloomberg.com/news/articles/2022-07-25/nyc-public-transit-will-need-until-2035-to-match-pre-covid-level"> said</a> the MTA may not reach pre-covid levels of ridership until 2035. The agency needs riders to finance its
+          operations and low ridership is causing a drain on funds. Officials are already looking at new sources of funding to supplement the depleting revenue. One proposed plan is to charge a <a
+            href="https://gothamist.com/news/mta-expects-congestion-pricing-to-start-at-the-end-of-2023"> congestion fee</a> for people driving into Manhattan, that will bring about $1 billion in yearly revenue, which can in turn be invested in
+          public transit. Another plan that the agency could adopt would involve <a href="https://www.amny.com/transit/mta-wants-no-fare-hikes-for-all-of-2022-lieber/"> raising the fare price</a>, which could have severe backlash.
+        </p>
+      </div>
+
+      <p>Use the data table below to find the 168 subway stations as well as the percent changes of swipes and turnstile entry for each station. </p>
+    </div>
+
+    <div class="container">
+
+
+      <zing-grid caption="Subway Stations Data" sort search pager page-size="7" page-size-options="7,14,21" layout="row" viewport-stop>
+        <zg-data src="./station_data.json"></zg-data>
+        <zg-colgroup>
+          <zg-column index="Station" header="Station"></zg-column>
+          <zg-column index="Swipe Change (%)" type="number" header="Swipe Change (%)" sort-desc="true"></zg-column>
+          <zg-column index="Entries Change (%)" type="number" header="Entries Change (%)"></zg-column>
+
+        </zg-colgroup>
+      </zing-grid>
+
+    </div>
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
+  </body>
+
+  <!-- </html> -->
