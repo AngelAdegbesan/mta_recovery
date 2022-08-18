@@ -1,5 +1,5 @@
 # mta_recovery
-Analysis of MTA's ridership change from the first four months of 2021 to he first four months of 2022
+Analysis of MTA's ridership change from the first four months of 2021 to the first four months of 2022
 
 I scraped and analyzed turnstile data and metro card data from the Metropolitan Transportation Authority from the periods of Jan 01, 2021 to April 30, 2021 and Jan 01, 2022 to April 30, 2022. 
 
